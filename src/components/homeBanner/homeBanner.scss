@@ -1,0 +1,17 @@
+.homeBanner {
+
+    .active {
+        background: #015EB9;
+        .img-wrapper {
+            img {
+                filter: brightness(0) invert(1);
+            }
+        }
+        h3 , p, a{
+            color: white;
+        }
+        a img {
+            filter: brightness(0) invert(1);
+        }
+    }
+}
